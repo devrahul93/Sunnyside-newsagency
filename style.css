@@ -11,3 +11,69 @@ body {
   font-size: 18px;
   font-family: 'Fraunces', serif;
 }
+
+header {
+  background-image: url(images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: hsl(0, 0%, 100%);
+  height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+header::after {
+  content: '';
+  background-image: url(images/icon-arrow-down.svg);
+  background-position: center;
+  width: 36px;
+  height: 114px;
+  top: 50%;
+  right: 48%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+header > h2 {
+  right: 50%;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding-top: 1.5em;
+  margin-left: 1.5em;
+}
+
+.logo {
+  margin-left: 15px;
+}
+
+.button {
+  margin-right: 1em;
+}
+
+.button > a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  padding: 0.6em;
+}
+
+.button > a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+}
+
+#center-area {
+}
+
+#center-area > h2 {
+  margin-top: 2em;
+  margin-left: 12em;
+  font-size: xx-large;
+  letter-spacing: 0.2em;
+}
