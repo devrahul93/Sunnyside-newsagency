@@ -82,12 +82,31 @@ header > h2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 20em);
+  background-color: hsl(0, 0%, 100%);
 }
 
 .first {
   grid-column: 1/2;
+  align-self: center;
+  margin: 3em 2em 3em 3em;
+}
+.first > h3 {
+  font-size: 3em;
 }
 
+.first > button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: hsl(51, 100%, 49%);
+  text-decoration-thickness: 5px;
+}
+/* .fifth > p {
+  font-size: 1em;
+  font-style: normal;
+} */
 .second {
   grid-column: 2/3;
   background-image: url(images/desktop/image-transform.jpg);
@@ -104,8 +123,23 @@ header > h2 {
 
 .fourth {
   grid-column: 2/3;
+  align-self: center;
+  margin: 3em 2em 3em 3em;
 }
 
+.fourth > h3 {
+  font-size: 3em;
+}
+
+.fourth > button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: hsl(7, 99%, 70%);
+  text-decoration-thickness: 5px;
+}
 .fifth {
   background-image: url(images/desktop/image-graphic-design.jpg);
   background-size: 100% 100%;
