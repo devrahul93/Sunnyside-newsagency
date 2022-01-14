@@ -248,3 +248,15 @@ footer {
   margin: 1em;
   cursor: pointer;
 }
+#hamburger {
+  display: none;
+  margin-right: 1.5em;
+}
+@media only screen and (max-width: 768px) {
+  .button {
+    display: none;
+  }
+  #hamburger {
+    display: block !important;
+  }
+}
