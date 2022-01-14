@@ -68,12 +68,51 @@ header > h2 {
   border-radius: 25px;
 }
 
-#center-area {
-}
+/* #center-area {
+} */
 
 #center-area > h2 {
   margin-top: 2em;
   margin-left: 12em;
   font-size: xx-large;
   letter-spacing: 0.2em;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 20em);
+}
+
+.first {
+  grid-column: 1/2;
+}
+
+.second {
+  grid-column: 2/3;
+  background-image: url(images/desktop/image-transform.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.third {
+  grid-column: 1/2;
+  background-image: url(images/desktop/image-stand-out.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.fourth {
+  grid-column: 2/3;
+}
+
+.fifth {
+  background-image: url(images/desktop/image-graphic-design.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.sixth {
+  background-image: url(images/desktop/image-photography.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
