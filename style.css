@@ -283,4 +283,7 @@ footer {
   .ham-but > a:hover {
     background-color: yellow;
   }
+  .hero {
+    display: block;
+  }
 }
